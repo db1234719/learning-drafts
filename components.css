@@ -1,0 +1,63 @@
+:root {
+  --co-primary: #ececec;
+  --co-secondary: #333333;
+  --co-accent: #0076c6;
+  --co-error: #ce0606;
+  --co-success: #009070;
+  --co-light: #ffffff;
+  --co-dark: #000000;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  background: transparent;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+/* .btn {
+  box-shadow: .2rem .2rem 0rem var(--co-secondary);
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: .4rem .4rem 0rem var(--co-secondary);
+}
+
+.btn:active {
+  transform: translate(13%, 13%);
+  box-shadow: 0rem 0rem 0rem var(--co-secondary);
+} */
+
+.btn-primary {
+  background: var(--co-accent);
+  color: var(--white);
+}
+
+.btn-secondary {
+  background: var(--co-secondary);
+  color: var(--white);
+}
+
+.btn-success {
+  background: var(--co-success);
+  color: var(--white);
+}
+
+.btn-error {
+  background: var(--co-error);
+  color: var(--white);
+}
+
+.btn-link {
+  color: var(--co-primary);
+  outline: var(--co-primary) solid .2rem;
+}
