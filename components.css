@@ -2,18 +2,19 @@
   --co-primary: #ececec;
   --co-secondary: #333333;
   --co-accent: #0076c6;
+
   --co-error: #ce0606;
   --co-success: #009070;
   --co-light: #ffffff;
   --co-dark: #000000;
 }
 
-body {
+/* body {
   background: #000;
   color: #fff;
-}
+} */
 
-.btn {
+/* .btn {
   padding: 1rem 1.5rem;
   background: transparent;
   font-weight: 700;
@@ -21,7 +22,7 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 200ms ease;
-}
+} */
 
 /* .btn {
   box-shadow: .2rem .2rem 0rem var(--co-secondary);
@@ -37,7 +38,7 @@ body {
   box-shadow: 0rem 0rem 0rem var(--co-secondary);
 } */
 
-.btn-primary {
+/* .btn-primary {
   background: var(--co-accent);
   color: var(--white);
 }
@@ -60,4 +61,4 @@ body {
 .btn-link {
   color: var(--co-primary);
   outline: var(--co-primary) solid .2rem;
-}
+} */
